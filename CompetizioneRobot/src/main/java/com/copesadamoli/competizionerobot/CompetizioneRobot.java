@@ -53,5 +53,22 @@ public class CompetizioneRobot {
         for (int i = 0; i < nomiSquadre.length; i++) {
             System.out.println(nomiSquadre[i] + " ha realizzato " + punteggiSquadre[i] + " punti nel tempo di " + tempiSquadre[i] + " secondi. Uno score totale di: " + (punteggiSquadre[i] + tempiSquadre[i]) + " punti.");
         }
+        
+        int indiceMigliorSquadra = 0;
+        int punteggioMigliorSquadra = punteggiSquadre[0];
+        int indicePeggioreSquadra = 0;
+        int punteggioPeggioreSquadra = punteggiSquadre[0];
+        for (int i = 1; i < punteggiSquadre.length; i++) {
+            if (punteggiSquadre[i] > punteggioMigliorSquadra) {
+                indiceMigliorSquadra = i;
+                punteggioMigliorSquadra = punteggiSquadre[i];
+            }
+            if (punteggiSquadre[i] < punteggioPeggioreSquadra) {
+                indicePeggioreSquadra = i;
+                punteggioPeggioreSquadra = punteggiSquadre[i];
+            }
+        }
+        System.out.println("\nLa migliore squadra è: " + nomiSquadre[indiceMigliorSquadra] + " con un punteggio di " + punteggioMigliorSquadra + " punti.");
+        System.out.println("La peggiore squadra è: " + nomiSquadre[indicePeggioreSquadra] + " con un punteggio di " + punteggioPeggioreSquadra + " punti.");
     }
 }
