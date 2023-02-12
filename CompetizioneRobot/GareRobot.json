@@ -1,0 +1,101 @@
+[
+  {
+    "campo": "A",
+    "giudice": "Rossi",
+    "squadra": "Copes",
+    "ora": "10:00",
+    "tempo": 123,
+    "punteggio_percorso": "550",
+    "punteggio_difficolta": "923"
+  },
+
+  {
+    "campo": "B",
+    "giudice": "Rossi",
+    "squadra": "Adamoli",
+    "ora": "09.03",
+    "tempo": 980,
+    "punteggio_percorso": "890",
+    "punteggio_difficolta": "456"
+  },
+
+  {
+    "campo": "B",
+    "giudice": "Paoli",
+    "squadra": "Copes",
+    "ora": "17.49",
+    "tempo": 543,
+    "punteggio_percorso": "323",
+    "punteggio_difficolta": "1200"
+  },
+
+  {
+    "campo": "C",
+    "giudice": "Ferrari",
+    "squadra": "Ronaldo",
+    "ora": "15.56",
+    "tempo": 180,
+    "punteggio_percorso": "1400",
+    "punteggio_difficolta": "284"
+  },
+
+  {
+    "campo": "B",
+    "giudice": "Rossi",
+    "squadra": "Girolo",
+    "ora": "15.16",
+    "tempo": 456,
+    "punteggio_percorso": "1734",
+    "punteggio_difficolta": "2654"
+  },
+
+  {
+    "campo": "D",
+    "giudice": "Paoli",
+    "squadra": "Adamoli",
+    "ora": "12.56",
+    "tempo": 124,
+    "punteggio_percorso": "1000",
+    "punteggio_difficolta": "254"
+  },
+
+  {
+    "campo": "C",
+    "giudice": "Ferrari",
+    "squadra": "Leclerc",
+    "ora": "12.06",
+    "tempo": 345,
+    "punteggio_percorso": "5239",
+    "punteggio_difficolta": "1234"
+  },
+
+  {
+    "campo": "D",
+    "giudice": "Rossi",
+    "squadra": "Roosvelt",
+    "ora": "17.53",
+    "tempo": 612,
+    "punteggio_percorso": "240",
+    "punteggio_difficolta": "1234"
+  },
+
+  {
+    "campo": "F",
+    "giudice": "Paoli",
+    "squadra": "Ronaldo",
+    "ora": "14.53",
+    "tempo": 400,
+    "punteggio_percorso": "203",
+    "punteggio_difficolta": "2154"
+  },
+
+  {
+    "campo": "G",
+    "giudice": "Ferrari",
+    "squadra": "Girolo",
+    "ora": "11.15",
+    "tempo": 650,
+    "punteggio_percorso": "323",
+    "punteggio_difficolta": "100"
+  }
+]
